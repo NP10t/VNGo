@@ -16,7 +16,8 @@ VNGo is a modern ride-booking application that connects users with drivers effic
 ✅ Scalable and efficient backend with Spring Boot 
 
 
-![Image](https://github.com/user-attachments/assets/79b3b4d2-3b1d-43a6-bd39-e02be696f090)
+<img src="https://github.com/user-attachments/assets/79b3b4d2-3b1d-43a6-bd39-e02be696f090" width="400">
+
 
 ---
 
