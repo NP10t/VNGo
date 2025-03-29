@@ -57,7 +57,7 @@ npx start # or run-ios
 
 ## 📧 Contact
 For any issues or inquiries, feel free to reach out:
-- Email: support@vngo.com
+- Email: 22120274@student.hcmus.edu.vn
 - GitHub Issues: [Open an issue](https://github.com/np10t/vngo/issues)
 
 🚀 Happy coding with **VNGo!**
