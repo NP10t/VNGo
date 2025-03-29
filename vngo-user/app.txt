@@ -1,0 +1,45 @@
+app/
+│
+├── account/
+│   ├── components/         // Chứa các component dùng chung trong account
+│   ├── screens/            // Chứa màn hình chính
+│   │   ├── AccountInfo.tsx
+│   │   ├── ChangeAccountInfo.tsx
+│   └── _layout.tsx
+│
+├── auth/
+│   ├── components/         // Component dùng chung cho login/signup
+│   ├── screens/
+│   │   ├── Login.tsx
+│   │   ├── LoginOTP.tsx
+│   │   ├── Signup.tsx
+│   │   └── SignupOTP.tsx
+│   └── _layout.tsx
+│
+├── home/
+│   ├── ride/
+│   │   ├── components/     // Các component dùng chung trong ride
+│   │   ├── screens/
+│   │   │   ├── SearchLocation.tsx
+│   │   │   ├── SelectVehicleType.tsx
+│   │   │   ├── FindDriver.tsx
+│   │   │   ├── DriverFound.tsx
+│   │   │   ├── RateDriver.tsx
+│   │   │   └── ScheduleRide.tsx
+│   └── _layout.tsx
+│
+├── voucher/
+│   ├── screens/
+│   │   ├── Voucher.tsx
+│   │   └── Index.tsx
+│   └── _layout.tsx
+│
+├── shared/                  // Thư mục dùng chung cho toàn bộ ứng dụng
+│   ├── components/          // Các component tái sử dụng
+│   ├── hooks/               // Custom hooks (nếu cần)
+│   ├── utils/               // Hàm tiện ích chung
+│   └── styles/              // Chứa các style global
+│
+├── services/       // Chứa các file xử lý logic hoặc API gọi đến backend
+│
+└── App.tsx

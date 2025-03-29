@@ -1,0 +1,45 @@
+services:
+  app:
+    image: nguyenphuc4444/vngo:latest
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile
+    ports:
+      - "${SERVER_PORT}:${SERVER_PORT}"
+    environment:
+      - SERVER_PORT=${SERVER_PORT}
+      - DB_URL=${DB_URL}
+      - DB_USERNAME=${DB_USERNAME}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - JWT_SIGNER_KEY=${JWT_SIGNER_KEY}
+      - JWT_VALID_DURATION=${JWT_VALID_DURATION}
+      - JWT_REFRESHABLE_DURATION=${JWT_REFRESHABLE_DURATION}
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - vngo-net
+
+  db:
+    image: mysql:latest
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+    volumes:
+      - db-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    networks:
+      - vngo-net
+
+networks:
+  vngo-net:
+    driver: bridge
+
+volumes:
+  db-data:

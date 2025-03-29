@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  servlet:
+    context-path: "/vngo"
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/vngo
+    driverClassName: "com.mysql.cj.jdbc.Driver"
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+jwt:
+  signerKey: daylakeydanhchodev
+  valid-duration: "3600"
+  refreshable-duration: "86400"

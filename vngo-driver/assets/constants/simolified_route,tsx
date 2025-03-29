@@ -1,0 +1,1310 @@
+export const sampleRoute = {
+    "routes": [
+        {
+            "legs": [
+                {
+                    "distanceMeters": 721169,
+                    "duration": "57792s",
+                    "staticDuration": "57792s",
+                    "polyline": {
+                        "encodedPolyline": "}femCiacwMnBFExBXx@hAfC`@xBpAvJhAlGh@lFCz@o@dFi@nAw@pAmEbFkCbDeDzDmDnEeEbFuExFaFdG{EzFkEpFsMdPoFjHeGfIyE~GqEfHsEnH_EnG{CbFwDvFwCdEsBpCyCzDqBjBuE~C}DzCqAbBgAhBmBfFQ~@i@~Dw@xIw@jEcCtGkAtD{AnFkBxGwBvH}BnIeChJ}BnHgApDcB`GmBtHcBnHmB|H{BlIaBlG{@rDgA~E}AvG{A|Gy@`E{AlFgBlD_DdFmD~FuDbG}CjFiCrE}ClFoDfGuDnGyDvGcEtG}D|G{ExIaDfG}CfGmDvGwC|F}CfGcDtGgD`HgDdHmDlH_EhIkB|Em@|Ci@~E{@fKiArKqAlK_A`L_@zKQlJgHtf@iJfVeGfTe@nCiBnGyAnFaBdHeBhI}AhK{A|KuAvK_BxKqBlKgC`KcDdKcDvJmDrGaGpHiFbImEdHsB|DyDfJgDvJyCxJ_DnJoC`HcCdEcG`JyB|EwDpJo@|CY`DWbK]rKc@xKa@zII|B[jFUbFStGQvHuMxz@sBhHuDrJwDtJwDpJaXbl@wE~I_F~IyExIyEvIcFnI_G~H}FvHcG|Hed@zh@mBtDeKpMg@zDy@`JgAvKkAzK}A|KoB|KmBlKaBtJwAhKaB~K{@hIe@jI?tFN`LDbK?jI?xJgAbEqDnJuA|AgBjA}GvA}DKcHkAiG}@iEi@}DYoA@mDFaEKqCYcGmAyGwAsH_BgIyAmEi@aHa@kJDkJTaJnA_CbAiHhEmHnE{H|EqMlFkBJiBBkGIkH?iHDuHD{HBeIF{IF_JFaEF{BTaBZwFlBmCxAoCnBkGpEcHdFqGlEuDbBkEtA}IdBgIlBoIjBwIzBiIjBqG|AuHhBoEt@sIbB_AZsDhBgC~AuE|EsBjDkBbEoDdJqDjJeDzIuDjKoC|I{BjIuBrHmBxFcDtHkDfI}B~DoFjH{M~RmCfE_DvDmD~C_EjCeIvE{HbEoI`DcGxCwC`DoBrC{@tAs@x@cC|By@j@sDvBoEhCyErC}EpCoFtCmGjCaIhCeJnCoJfCoJ`CsJdCoJhCqJhCoJ`CcFl@iFRyHGeKKeKGcKAeRB}Jn@aKr@_Kl@yOp@uXuEkJoCqOkB}ICmH[iCa@yNeCgF^oCx@s_A~KoHqAoJkCqJcCaF}@}J{@cKWgKSgHa@iUqGmAu@kEaDiFkEgG_FcH{FsHaG}HkFsHyDqGeCgHsBsJsBaKoAcK_A}JcA_KeA_Ku@yCMgFDiFRaK~@sJt@kI{AuOavD|EcIVcF[_DaVy`@{{@vLkDbGgGdReCfE_FlEcCpAgQ`CcKQyCNaKp@cFg@qCw@iJyCsJ_CeFBoCj@kKxBoCY}JkBmJeBeEKyD`@mGbAwJ~@wJpA}Jz@_Kv@gFT}JmAqG_DcJoHcEeBoCg@wJ[iHc@gKaAqIg@sJw@gDiAoCeBcBiBq@aAgBiCeBcCgC}DyCuDm@u@mCmDgCaDsDiEaHuIoIqFkIoBmIsBkIyBqFyA}Cy@s@YsEgAoEoA_GaB}GgBeIoBqGYeEV_ARmH`DgF|DcGdG}FbGqFrF{FdGeC`DqChFwCbIsCdHgD`GyAhBmCdDaCnCeDzD_E~DoEzDmFxEcFhEqF`F_GvF}DzE_CvDcEbIeEnIeEhIeElIqDdHiDrHsBhGyB|IeClJyAjHu@fKGfKOfF_AlKa@nFKxFGtF_AbIcCdKaDvJyCrJ_DnJuBjHaBhFcBhGyBdHqBvFoCpFiCvD_DpD_HvG{GxGeHvG}GzGyG~GsG~GuGfHyG`HuHzJiAtC_B|Hq@lI}@jIiB~EiBzBkGbDwJrBgHfBmCdAiE|BcIhF{HjFqBpBkKdM{GpGwClDkDjFcExGuFfDeB`@{G~@iD|@oIpDeErCyF`F_FnD}GnEwEfDmEdEcEfFeCvD{CbG_BfEkCdJaAlCcC~DcFdE}H|EcIxEwHrE}HhEgIvD_G|CuDlCiD`DoG|GsG`HkGvGgDvCaH~EcH|E}GfF{C~CkFjH}EnHaCtGeBbHkAbC_BtByFfGcGpGcGrGcGjGeGnGiGlGgGlGeGpGgGjGaGbGmGhGaFlE}BnAkJvDmIdDqIrDuIvDgIhEgIlE{HjE}HbEyHxDiDxB_DlCcE~EmFfHgDlEoB~CiB`CcAdAaHbJuD~E_EtFqEzFoElG_ExGmDbHaEfHuEdHyEzGmEnG{BlDk@dAaAdAcAtBmDzC{E~C{Ad@_G|A}GjBiGbBwFdBwEfAw@H}ADuACaEs@iDcA}E{A_GiBcHsBuHwBaI{BqI_CwIaCyIcCsH}BeHeCuHeCyJ}DkC_CmBgDyCyFe@u@y@_Bk@gAmB_EyBmEgCaF{C}FcDiGeDqGyBmF}@iGYcIWmHIoBGaArAyB~AyAdByA|HVhCb@|DhAxDbAv@Vz@XrAXyAMuDiAeEgA}D}@u@QuEg@qAKu@TcBtBsAjAaC}@e@_Au@y@iAs@_A]gCi@eAOmBc@_CYqFe@qGe@aHK}HPkIt@gCFiCKmIsBcIuCoQsGsG{ByGaCoHgCkIoCqIuCsIuCaJuCuGiC}IqD_J_DiJwCeJ_DgJcDgJ}CgJuCmIyCwBs@}HcCuIyC}HoCiG{BaH}BaIiC_J{CaJ}CiKoDgJ_DeJeDgJ_DiJ}CgJ}CiJ_DeJ{CeJ_D_JwC{HgCgGsByGyB_IcCwEo@wCAaKTwCUwCk@iJ{BiJ}BsJyBuJwByJ{BsJwBuJwBqJyBoJuBqJ}B_H_CwI{D{IyD{I{DmEcByDaAyGcB{HgB}IoB}L}BkFHuCl@mCbAiHnDgJn@oGsA_CmAoHgGeHeGgEuE{BoFUkAq@eEw@}D_AuEcAkEsAaE_BaE{AyCyCcFoCmDcDgDgFgEiGqD}G}DyHsEmI}EwReLiH_EkH}D}FuDeDqB{Aw@cCeBmCmBsDqByEqCgF{CsFwCmBq@kF}@_CGeJBaKD_KH}GA}GqAgCqAwBeBgHgGmHaGmG{EmFkE_GyEaHcFiH_FwH_FgIaFeIcFeIaFaIgFcIaFmEqB{GcCmJgCoJkCqJ_CsJcCkJmCgJeDaJsD}IwD_JsDkKuDgJyCgJyCkJwCkJ}CiJwCgJ{CiJwCkJ{CkJ{CkJsCcJsC}IqCmH_CwE_BwAe@cBc@eFcBsEuAyFmBuGsBeH{BwHeCgGiBs@YkDiAwBm@{E}AwFiBeHaC_FwAeDeAiA]sAe@ICyBo@wAg@iGmBoBo@s@Y_Bc@aC{@wC{@sCw@iC_AoAe@qDmAsEuA}E{AoFcBeGsB{GsBoH}BcIiCmIkCmHcC_A_@gEiAkEwAiA{@s@o@kEo@{Be@qF}A}GwBaIgCmImC_JsCiJyC_JsC_JuCkJyCgJwC{IsCeIiCoIoCcJuCeJuCkJyCiJwCgJyCkJwCkJwCiJyCiJyCkJuCeJ{CgJ{CkJuCkJuCiJuCgJwCiJyCgJwCmKgDkJwCiJ{CgJyCiJwCmJqCkJsC{`@mMgJyCiJuCiJwCsUeHmJiCiJsCgJwCiJuCiJyCkJwCiJuCiJ{CgJ}CmJ{CkJsCwNyEaCuAuBgBuGeHsGeHwGcHuGgHwGeHqGkHwGaH{GaHsGyGiGuGcQgPsHaGsH}FoUqNcTiHkFeBqFeBeGmB}F}BcF_DmHsF_IeFmIkEsImEsIiEqImEwFgBoB[kBIsDHwHZqGVqKV}BM_CYyFaB{BkAcHcFiHmF}HuF{HuF{HyF}HsFuHuFyHuFqHuFqHmFyHuF}HsF{HsFeIcFwGwCgJyCkJyC_OkEuCWcH`@cFh@gGQwEmAgBs@qGqCkHgDsIsD}IwD}IyDuIuD}IwD_JyD_JqD_JoD}IoD}IwD{IwD}I{D{IaEmJmEaAa@Ne@aog@}a\\_exCwr`A}hxC}ggBw{zDvw_@c~|@fg`AoonEtubACN{@l@m@R}@Ja@@@E?A?A?A?A?C?AAA?A?AACACN]NWdBkCRYXe@RYh@w@b@m@^g@`@g@MQCCCGGKGQe@yAk@{Ae@aBaA^cA`@_C~@yB`AYLuBz@uBbAMH{@\\WH~@vCTt@Nr@FVJ^hA|DFTr@zBHVBD@DDLHTTp@L^DL@BRn@N^Rj@DJHPLXN\\^v@Th@fAhBBFbA`BLPLPJLJEDEDGDIBG?G@MB]D_A@F@D@D@B@BBBBBB@BBB@D@F?F?JNJHf@d@JJVNTLTLZNXLMVOREFCLAF?F@JBH@?fAAe@^LTz@nArAbBpBxBhBlBbBfBpEzEtBfCjDrEZ`@zAhB|AjBrBfCvEzFx@bAf@j@TXj@b@j@b@v@~@rBbC~AlBNVtBrDlApAlAbA|@|@xAhAxBlBhA|@jA~@xAlAt@l@TXTX\\j@`@fAX~@Jj@Hh@D^BZ@b@@b@A^A`@I`AMn@ETEVM^K^[z@]x@Uh@]x@e@p@o@t@{@t@w@h@}@p@aAj@cAt@sBxA{@j@_An@{@j@q@`@oDbBmB~@cIrDWJ_ErBcEnB{CzAiGbDoFfCmA\\aARs@Ji@HeAL_@Bg@Da@Dq@Lk@Nu@Xc@Pw@f@s@ZeBl@uChAYJi@RWH]H[H]FYDWBWBI@O@c@?a@?_@Ac@Ca@E_@G]GUEYIQESGw@SQEUEg@Ga@Ec@Co@Aw@Aw@AS?a@AwBAeAAsAAu@AW?U?]B_@BSDWDQFSDYL]PWNQNEBSPKJOPSXKNKNKTKRM^M^I\\EZEXEj@At@?^Bf@BX@LDVH\\DTFTL^LVNXZd@Zb@`@l@d@j@l@n@\\ZXV\\XB@^Zn@h@t@j@RPTNXXVVTTNTJRNVPb@JTHVV~@Nf@Nf@J^J^Hb@DZDZB\\@b@@b@@`@?`@Az@?z@?tB?rB?hD?zB@jA?d@@^B`@Bb@DZD\\Fb@Fb@Jl@Pr@T|@^~@^bA\\|@DNDHt@hB`@~@`@`Ab@vALd@L`@@@HVDLHXBHL\\BD`@fA?Bb@`At@hBn@zAXp@b@dAPb@b@dADHn@`BP`@JVb@`AVr@LZTj@Nb@HRt@hBVr@HPTj@Pd@Rh@Rf@HPDLDJJT@@HNFLFLJLBDFHJLDDFHNR@?LPPRLP@@BDTVTZZ^V\\DFTXPRPTHJFHR\\T^d@`A\\~@x@tCNf@ZjAZhATz@vApFXbAZfAN`@Rf@n@jAx@rA|@pAtAlBtAhBBDbBrBjBpBvAvAlAtApAtAfAxAfArBv@dBn@|An@zAHRVl@@BTz@Tx@b@pBlBlJlAzFf@~BnAbGdA|FnAfGl@vC@BH`@ThApAfGp@dC~@~Cb@|Ab@pBh@fCRrBHnBH`DBbC?lB@~C@t@BjA?ZAXC^Cb@Ep@GbAQhCO`C?DQlC_@lCYhBY|AMl@Kp@I~@IbAOvCSbEKtDMzCWvJAh@cExyACf@AHElCC~BMrCQbBgAxDsAtE{CnKsBbG_BtFq@vBkChK_CfJ_H`WuCrJkBjG_@jAwDnIeFbJkFfJeL|R{BtDgA|A}AjBi@f@KMwAtAwFtFa@~A]|B?fBL|Bl@dBpBfD`FvG@@f@lBVzA?@JjC?@e@hKs@zO?@L?AJStCkA|L[nEO~CK~BCh@AR]~QYhKm@hJiAfKUfB_@zBq@vCQz@YhBUrASzASjBMpBYfEGt@A?U~Bc@lDOdAa@xDaA`IOdAg@tDErABfEl@bDnB|FnG`O@@XfC?@LxBCxC?@UjBa@tBA@gAhC?@aAtAeAhAA@aBbA?@aCz@A?aQbCs@HA?@FmEf@c@DqANqGr@sBNsAIwAQoDQuAAsBPsDTgBPoAT}@^g@Vq@n@m@v@[x@]v@]|Ag@zCi@fD_@`DiBpOQpAIj@Kb@_AlDMd@YfAe@lBYfAGVKl@a@pCWnBa@fCg@vCmB`Jo@jCQbAM`AOvB?@UlB?@S`AA?c@rAWbA{@tCi@`CYpAkAhH_BhIkBxJ_AbF_AxEA@aAzCeBfDqBzDsBvDmAbDeArEcAlFkAdEyA|C?@sAnB}AjB?@A@iKdHaAp@ACaC`B_Ad@wAf@IB}EdAmB^gBZE@qEt@kDXaEDgCa@{F_AwH}@aIgAsCc@cDc@E?@IkGu@wFw@_E]kVeA_G_@gFo@_HeAA?wFyAgF{AsCy@mGu@kD?kBXuCl@_ClAmBdB{B`DgHdMmB`DA@_BhA?@kBnAA?iItC_HhC{ChA{DbAA?mAPA?eCBaEWaEm@{Co@?AwDyA?AmCqB_DoDy@q@]WeAg@qBk@C?wC}@{B{@iEqAwM}DmImBADOKfEvA@E@ESGm@Sm@MOEQEg@OyAa@[MaCq@_@KYGk@MYIeAUWIUIA?[Ko@MkB[A?QCMCa@IiAQUC[EGCSCYE[GYI[GYIYKa@Mu@Ws@Yi@Uk@Wi@Wa@SGCg@Yi@Yi@YIGWQQOECMKQOQOSQGGIIGEQMAASOMIgBqAECOKcAo@oAu@SOm@]IEQKEEWO_@S?AUMGE]UA?_@WiAq@]U{@m@ECy@e@mCuA{@]s@SCAcBc@a@MC?a@Iq@Ow@KC?g@KYCeAOaAKMAQC[CYC_@Eq@CG?wBYgAMmAKsE]YEaAKa@GkC[]EaBQOCs@IC?mBSMCw@Ii@GUDG@E?C?C@A?I?KA[CSAuAOk@G_BOE?_CUA?GBE@C?C@E?C?E@AAC?A?AAC?A?AAC?EAECEAGCECEAECACE?mE_@s@GcAKo@Gm@Ew@MC?WQcBOc@Ea@EqAOoHq@m@EkAMSAKAcAOKAaAM_@E}@KwCWYCuFi@SCUCe@Ek@Gk@G_BQIA]EuBQg@EaAKa@EA?iBOkAMcAISCk@EE?c@EeCSA?iFi@wBSs@KUDM@OAGAaAGyAKWEUA]EgAKeBMWEq@S}@Qm@M[IUKq@UUKiAe@KGwB}AmAiA{@cACCa@e@_@q@CCEIOUS]y@iBACM_@Mc@Oi@IOYyAESa@aCOw@CQSgAEWCMAKGWIc@COWHDCb@~BDPFf@Lv@QCgBYKAg@KA?A?A@A??@A?A?AB?@CFA@IAUIC?A?A@C@A@A@G?cCy@KEQE?DEPEAKAIAG?IAGAC?C?E@ENAAADg@tAGRm@bBGRAFMEGCSJQDk@HOFSHM?O?UCG@KAQEMEOGi@[i@c@A?OCYIQC?JAHMAi@?I?IEGEIKYU]Yc@]IIIGWWFKEEWUQOKIOMCCWUGJECYUIKKGCCKG}BgBCC[[II_@]s@s@eBqAgAhBmAjBy@rAGFGLYl@EDKGk@g@CDC?A?ECKIAA?C?A@C@Cc@a@HK"
+                    },
+                    "startLocation": {
+                        "latLng": {
+                            "latitude": 23.297273,
+                            "longitude": 77.353327
+                        }
+                    },
+                    "endLocation": {
+                        "latLng": {
+                            "latitude": 28.704064199999998,
+                            "longitude": 77.1024387
+                        }
+                    },
+                    "steps": [
+                        {
+                            "distanceMeters": 171882,
+                            "staticDuration": "10020s",
+                            "polyline": {
+                                "encodedPolyline": "}femCiacwMnBFExBXx@hAfC`@xBpAvJhAlGh@lFCz@o@dFi@nAw@pAmEbFkCbDeDzDmDnEeEbFuExFaFdG{EzFkEpFsMdPoFjHeGfIyE~GqEfHsEnH_EnG{CbFwDvFwCdEsBpCyCzDqBjBuE~C}DzCqAbBgAhBmBfFQ~@i@~Dw@xIw@jEcCtGkAtD{AnFkBxGwBvH}BnIeChJ}BnHgApDcB`GmBtHcBnHmB|H{BlIaBlG{@rDgA~E}AvG{A|Gy@`E{AlFgBlD_DdFmD~FuDbG}CjFiCrE}ClFoDfGuDnGyDvGcEtG}D|G{ExIaDfG}CfGmDvGwC|F}CfGcDtGgD`HgDdHmDlH_EhIkB|Em@|Ci@~E{@fKiArKqAlK_A`L_@zKQlJgHtf@iJfVeGfTe@nCiBnGyAnFaBdHeBhI}AhK{A|KuAvK_BxKqBlKgC`KcDdKcDvJmDrGaGpHiFbImEdHsB|DyDfJgDvJyCxJ_DnJoC`HcCdEcG`JyB|EwDpJo@|CY`DWbK]rKc@xKa@zII|B[jFUbFStGQvHuMxz@sBhHuDrJwDtJwDpJaXbl@wE~I_F~IyExIyEvIcFnI_G~H}FvHcG|Hed@zh@mBtDeKpMg@zDy@`JgAvKkAzK}A|KoB|KmBlKaBtJwAhKaB~K{@hIe@jI?tFN`LDbK?jI?xJgAbEqDnJuA|AgBjA}GvA}DKcHkAiG}@iEi@}DYoA@mDFaEKqCYcGmAyGwAsH_BgIyAmEi@aHa@kJDkJTaJnA_CbAiHhEmHnE{H|EqMlFkBJiBBkGIkH?iHDuHD{HBeIF{IF_JFaEF{BTaBZwFlBmCxAoCnBkGpEcHdFqGlEuDbBkEtA}IdBgIlBoIjBwIzBiIjBqG|AuHhBoEt@sIbB_AZsDhBgC~AuE|EsBjDkBbEoDdJqDjJeDzIuDjKoC|I{BjIuBrHmBxFcDtHkDfI}B~DoFjH{M~RmCfE_DvDmD~C_EjCeIvE{HbEoI`DcGxCwC`DoBrC{@tAs@x@cC|By@j@sDvBoEhCyErC}EpCoFtCmGjCaIhCeJnCoJfCoJ`CsJdCoJhCqJhCoJ`CcFl@iFRyHGeKKeKGcKAeRB}Jn@aKr@_Kl@yOp@uXuEkJoCqOkB}ICmH[iCa@yNeCgF^oCx@s_A~KoHqAoJkCqJcCaF}@}J{@cKWgKSgHa@iUqGmAu@kEaDiFkEgG_FcH{FsHaG}HkFsHyDqGeCgHsBsJsBaKoAcK_A}JcA_KeA_Ku@yCMgFDiFRaK~@sJt@kI{AuOavD|EcIVcF[_DaVy`@{{@vLkDbGgGdReCfE_FlEcCpAgQ`CcKQyCNaKp@cFg@qCw@iJyCsJ_CeFBoCj@kKxBoCY}JkBmJeBeEKyD`@mGbAwJ~@wJpA}Jz@_Kv@gFT}JmAqG_DcJoHcEeBoCg@wJ[iHc@gKaAqIg@sJw@gDiAoCeBcBiBq@aAgBiCeBcCgC}DyCuDm@u@mCmDgCaDsDiEaHuIoIqFkIoBmIsBkIyBqFyA}Cy@s@YsEgAoEoA_GaB}GgBeIoBqGYeEV_ARmH`DgF|DcGdG}FbGqFrF{FdGeC`DqChFwCbIsCdHgD`GyAhBmCdDaCnCeDzD_E~DoEzDmFxEcFhEqF`F_GvF}DzE_CvDcEbIeEnIeEhIeElIqDdHiDrHsBhGyB|IeClJyAjHu@fKGfKOfF_AlKa@nFKxFGtF_AbIcCdKaDvJyCrJ_DnJuBjHaBhFcBhGyBdHqBvFoCpFiCvD_DpD_HvG{GxGeHvG}GzGyG~GsG~GuGfHyG`HuHzJiAtC_B|Hq@lI}@jIiB~EiBzBkGbDwJrBgHfBmCdAiE|BcIhF{HjFqBpBkKdM{GpGwClDkDjFcExGuFfDeB`@{G~@iD|@oIpDeErCyF`F_FnD}GnEwEfDmEdEcEfFeCvD{CbG_BfEkCdJaAlCcC~DcFdE}H|EcIxEwHrE}HhEgIvD_G|CuDlCiD`DoG|GsG`HkGvGgDvCaH~EcH|E}GfF{C~CkFjH}EnHaCtGeBbHkAbC_BtByFfGcGpGcGrGcGjGeGnGiGlGgGlGeGpGgGjGaGbGmGhGaFlE}BnAkJvDmIdDqIrDuIvDgIhEgIlE{HjE}HbEyHxDiDxB_DlCcE~EmFfHgDlEoB~CiB`CcAdAaHbJuD~E_EtFqEzFoElG_ExGmDbHaEfHuEdHyEzGmEnG{BlDk@dAaAdAcAtBmDzC{E~C{Ad@_G|A}GjBiGbBwFdBwEfAw@H}ADuACaEs@iDcA}E{A_GiBcHsBuHwBaI{BqI_CwIaCyIcCsH}BeHeCuHeCyJ}DkC_CmBgDyCyFe@u@y@_Bk@gAmB_EyBmEgCaF{C}FcDiGeDqGyBmF}@iGYcIWmHIoBGaArAyB~AyAdByA|HVhCb@|DhAxDbAv@Vz@XrAXyAMuDiAeEgA}D}@u@QuEg@qAKu@TcBtBsAjAaC}@e@_Au@y@iAs@_A]gCi@eAOmBc@_CYqFe@qGe@aHK}HPkIt@gCFiCKmIsBcIuCoQsGsG{ByGaCoHgCkIoCqIuCsIuCaJuCuGiC}IqD_J_DiJwCeJ_DgJcDgJ}CgJuCmIyCwBs@}HcCuIyC}HoCiG{BaH}BaIiC_J{CaJ}CiKoDgJ_DeJeDgJ_DiJ}CgJ}CiJ_DeJ{CeJ_D_JwC{HgCgGsByGyB_IcCwEo@wCAaKTwCUwCk@iJ{BiJ}BsJyBuJwByJ{BsJwBuJwBqJyBoJuBqJ}B_H_CwI{D{IyD{I{DmEcByDaAyGcB{HgB}IoB}L}BkFHuCl@mCbAiHnDgJn@oGsA_CmAoHgGeHeGgEuE{BoFUkAq@eEw@}D_AuEcAkEsAaE_BaE{AyCyCcFoCmDcDgDgFgEiGqD}G}DyHsEmI}EwReLiH_EkH}D}FuDeDqB{Aw@cCeBmCmBsDqByEqCgF{CsFwCmBq@kF}@_CGeJBaKD_KH}GA}GqAgCqAwBeBgHgGmHaGmG{EmFkE_GyEaHcFiH_FwH_FgIaFeIcFeIaFaIgFcIaFmEqB{GcCmJgCoJkCqJ_CsJcCkJmCgJeDaJsD}IwD_JsDkKuDgJyCgJyCkJwCkJ}CiJwCgJ{CiJwCkJ{CkJ{CkJsCcJsC}IqCmH_CwE_BwAe@cBc@eFcBsEuAyFmBuGsBeH{BwHeCgGiBs@YkDiAwBm@{E}AwFiBeHaC_FwAeDeAiA]sAe@ICyBo@wAg@iGmBoBo@s@Y_Bc@aC{@wC{@sCw@iC_AoAe@qDmAsEuA}E{AoFcBeGsB{GsBoH}BcIiCmIkCmHcC_A_@gEiAkEwAiA{@s@o@kEo@{Be@qF}A}GwBaIgCmImC_JsCiJyC_JsC_JuCkJyCgJwC{IsCeIiCoIoCcJuCeJuCkJyCiJwCgJyCkJwCkJwCiJyCiJyCkJuCeJ{CgJ{CkJuCkJuCiJuCgJwCiJyCgJwCmKgDkJwCiJ{CgJyCiJwCmJqCkJsC{`@mMgJyCiJuCiJwCsUeHmJiCiJsCgJwCiJuCiJyCkJwCiJuCiJ{CgJ}CmJ{CkJsCwNyEaCuAuBgBuGeHsGeHwGcHuGgHwGeHqGkHwGaH{GaHsGyGiGuGcQgPsHaGsH}FoUqNcTiHkFeBqFeBeGmB}F}BcF_DmHsF_IeFmIkEsImEsIiEqImEwFgBoB[kBIsDHwHZqGVqKV}BM_CYyFaB{BkAcHcFiHmF}HuF{HuF{HyF}HsFuHuFyHuFqHuFqHmFyHuF}HsF{HsFeIcFwGwCgJyCkJyC_OkEuCWcH`@cFh@gGQwEmAgBs@qGqCkHgDsIsD}IwD}IyDuIuD}IwD_JyD_JqD_JoD}IoD}IwD{IwD}I{D{IaEmJmEaAa@Ne@"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 23.297273,
+                                    "longitude": 77.353327
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 24.435744999999997,
+                                    "longitude": 77.15764899999999
+                                }
+                            },
+                            "navigationInstruction": {
+                                "instructions": "Bus towards Guna AC Seater 2+2AC 2+2"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "১৭২ কিল’মিটাৰ"
+                                },
+                                "staticDuration": {
+                                    "text": "2 hours 47 mins"
+                                }
+                            },
+                            "transitDetails": {
+                                "stopDetails": {
+                                    "arrivalStop": {
+                                        "name": "J P College, Guna",
+                                        "location": {
+                                            "latLng": {
+                                                "latitude": 24.435744999999997,
+                                                "longitude": 77.15764899999999
+                                            }
+                                        }
+                                    },
+                                    "arrivalTime": "2025-01-07T17:07:00Z",
+                                    "departureStop": {
+                                        "name": "Asharam Tiraha Bhopal",
+                                        "location": {
+                                            "latLng": {
+                                                "latitude": 23.297273,
+                                                "longitude": 77.353327
+                                            }
+                                        }
+                                    },
+                                    "departureTime": "2025-01-07T14:20:00Z"
+                                },
+                                "localizedValues": {
+                                    "arrivalTime": {
+                                        "time": {
+                                            "text": "PM ১০.৩৭"
+                                        },
+                                        "timeZone": "Asia/Calcutta"
+                                    },
+                                    "departureTime": {
+                                        "time": {
+                                            "text": "PM ৭.৫০"
+                                        },
+                                        "timeZone": "Asia/Calcutta"
+                                    }
+                                },
+                                "headsign": "Guna AC Seater 2+2AC 2+2",
+                                "transitLine": {
+                                    "agencies": [
+                                        {
+                                            "name": "rayeen travels",
+                                            "phoneNumber": "+91 1860 3001 0101",
+                                            "uri": "https://www.redbus.in/?utm_source=Google_Maps&utm_medium=referral&utm_campaign=GTFS"
+                                        }
+                                    ],
+                                    "name": "Rayeen Travels",
+                                    "uri": "https://www.redbus.in/?utm_source=Google_Maps&utm_medium=referral&utm_campaign=GTFS",
+                                    "color": "#f20000",
+                                    "textColor": "#ffffff",
+                                    "vehicle": {
+                                        "name": {
+                                            "text": "Bus"
+                                        },
+                                        "type": "BUS",
+                                        "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png"
+                                    }
+                                },
+                                "stopCount": 4
+                            },
+                            "travelMode": "TRANSIT"
+                        },
+                        {
+                            "distanceMeters": 502961,
+                            "staticDuration": "34920s",
+                            "polyline": {
+                                "encodedPolyline": "krctCiz|uMaog@}a\\_exCwr`A}hxC}ggBw{zDvw_@c~|@fg`AoonEtubA"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 24.435744999999997,
+                                    "longitude": 77.15764899999999
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.554202999999998,
+                                    "longitude": 77.32788099999999
+                                }
+                            },
+                            "navigationInstruction": {
+                                "instructions": "Bus towards Delhi Bharat Benz A/C Sleeper (2+1)Bharat (2"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "৫০৩ কিল’মিটাৰ"
+                                },
+                                "staticDuration": {
+                                    "text": "9 hours 42 mins"
+                                }
+                            },
+                            "transitDetails": {
+                                "stopDetails": {
+                                    "arrivalStop": {
+                                        "name": "Mahamaya",
+                                        "location": {
+                                            "latLng": {
+                                                "latitude": 28.554202999999998,
+                                                "longitude": 77.32788099999999
+                                            }
+                                        }
+                                    },
+                                    "arrivalTime": "2025-01-08T03:42:00Z",
+                                    "departureStop": {
+                                        "name": "J P College, Guna",
+                                        "location": {
+                                            "latLng": {
+                                                "latitude": 24.435744999999997,
+                                                "longitude": 77.15764899999999
+                                            }
+                                        }
+                                    },
+                                    "departureTime": "2025-01-07T18:00:00Z"
+                                },
+                                "localizedValues": {
+                                    "arrivalTime": {
+                                        "time": {
+                                            "text": "AM ৯.১২"
+                                        },
+                                        "timeZone": "Asia/Calcutta"
+                                    },
+                                    "departureTime": {
+                                        "time": {
+                                            "text": "PM ১১.৩০"
+                                        },
+                                        "timeZone": "Asia/Calcutta"
+                                    }
+                                },
+                                "headsign": "Delhi Bharat Benz A/C Sleeper (2+1)Bharat (2",
+                                "transitLine": {
+                                    "agencies": [
+                                        {
+                                            "name": "Hans Travels",
+                                            "phoneNumber": "+91 1860 3001 0101",
+                                            "uri": "https://www.redbus.in/travels/hans-travels-online?utm_source=Google_Maps&utm_medium=referral&utm_campaign=GTFS"
+                                        }
+                                    ],
+                                    "name": "Hans Travels",
+                                    "uri": "https://www.redbus.in/?utm_source=Google_Maps&utm_medium=referral&utm_campaign=GTFS",
+                                    "color": "#f20000",
+                                    "textColor": "#ffffff",
+                                    "vehicle": {
+                                        "name": {
+                                            "text": "Bus"
+                                        },
+                                        "type": "BUS",
+                                        "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png"
+                                    }
+                                },
+                                "stopCount": 7
+                            },
+                            "travelMode": "TRANSIT"
+                        },
+                        {
+                            "distanceMeters": 122,
+                            "staticDuration": "103s",
+                            "polyline": {
+                                "encodedPolyline": "{~gmDwa~vM{@l@m@R}@Ja@@"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.554216399999998,
+                                    "longitude": 77.32780369999999
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.555228,
+                                    "longitude": 77.327405
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "DEPART",
+                                "instructions": "উত্তৰ-পশ্চিমৰ দিশত আগবাঢ়ক"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "০.১ কিল’মিটাৰ"
+                                },
+                                "staticDuration": {
+                                    "text": "2 mins"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 314,
+                            "staticDuration": "256s",
+                            "polyline": {
+                                "encodedPolyline": "eehmDg_~vM@E?A?A?A?A?C?AAA?A?AACACN]NWdBkCRYXe@RYh@w@b@m@^g@`@g@"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.555228,
+                                    "longitude": 77.327405
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.5535307,
+                                    "longitude": 77.3299012
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "ROUNDABOUT_LEFT",
+                                "instructions": "ঘূৰণীয়া চক্ৰটোত প্ৰথমৰে Noida Expressway Service Rdলৈ ওলাই যাওক"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "০.৩ কিল’মিটাৰ"
+                                },
+                                "staticDuration": {
+                                    "text": "4 mins"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 189,
+                            "staticDuration": "170s",
+                            "polyline": {
+                                "encodedPolyline": "qzgmD{n~vMMQCCCGGKGQe@yAk@{Ae@aB"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.5535307,
+                                    "longitude": 77.3299012
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.554322,
+                                    "longitude": 77.3316049
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "TURN_LEFT",
+                                "instructions": "Palm Ave পাবলৈ বাওঁফালে ঘূৰক"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "০.২ কিল’মিটাৰ"
+                                },
+                                "staticDuration": {
+                                    "text": "3 mins"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 455,
+                            "staticDuration": "380s",
+                            "polyline": {
+                                "encodedPolyline": "o_hmDoy~vMaA^cA`@_C~@yB`AYLuBz@uBbAMH{@\\WH"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.554322,
+                                    "longitude": 77.3316049
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.558042399999998,
+                                    "longitude": 77.3296582
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "TURN_LEFT",
+                                "instructions": "Saxena Davdarত বাওঁফালে ঘূৰক\n(৬৪ মিঃত সোঁফালে থকা)Remedoৰ ওচৰেদি যাওক"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "০.৫ কিল’মিটাৰ"
+                                },
+                                "staticDuration": {
+                                    "text": "6 mins"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 138,
+                            "staticDuration": "110s",
+                            "polyline": {
+                                "encodedPolyline": "wvhmDkm~vM~@vCTt@Nr@"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.558042399999998,
+                                    "longitude": 77.3296582
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.5575257,
+                                    "longitude": 77.3283731
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "TURN_LEFT",
+                                "instructions": "Amrapali Rd পাবলৈ Police Chowkiত বাওঁফালে ঘূৰক"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "০.১ কিল’মিটাৰ"
+                                },
+                                "staticDuration": {
+                                    "text": "2 mins"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 642,
+                            "staticDuration": "536s",
+                            "polyline": {
+                                "encodedPolyline": "qshmDie~vMFVJ^hA|DFTr@zBHVBD@DDLHTTp@L^DL@BRn@N^Rj@DJHPLXN\\^v@Th@fAhBBFbA`BLPLPJL"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.5575257,
+                                    "longitude": 77.3283731
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.5546778,
+                                    "longitude": 77.3226985
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "NAME_CHANGE",
+                                "instructions": "Maha Maya Flyoverতে গৈ থাকক\n(২৪০ মিঃত বাওঁফালে থকা)পাৰ্কখনৰ ওচৰেদি যাওক"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "০.৬ কিল’মিটাৰ"
+                                },
+                                "staticDuration": {
+                                    "text": "9 mins"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 84,
+                            "staticDuration": "77s",
+                            "polyline": {
+                                "encodedPolyline": "wahmD{a}vMJEDEDGDIBG?G@MB]D_A"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.5546778,
+                                    "longitude": 77.3226985
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.5544506,
+                                    "longitude": 77.32347089999999
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "TURN_LEFT",
+                                "instructions": "বাওঁফালে Gautam Budh Rdৰ দিশে ঘূৰক"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "৮৪ মিঃ"
+                                },
+                                "staticDuration": {
+                                    "text": "1 min"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 174,
+                            "staticDuration": "157s",
+                            "polyline": {
+                                "encodedPolyline": "i`hmDuf}vM@F@D@D@B@BBBBBB@BBB@D@F?F?JNJHf@d@JJVNTLTLZNXL"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.5544506,
+                                    "longitude": 77.32347089999999
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.5531969,
+                                    "longitude": 77.3224896
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "ROUNDABOUT_LEFT",
+                                "instructions": "ঘূৰণীয়া চক্ৰটোত দ্বিতীয়ৰে Gautam Budh Rdলৈ ওলাই যাওক"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "০.২ কিল’মিটাৰ"
+                                },
+                                "staticDuration": {
+                                    "text": "3 mins"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 59,
+                            "staticDuration": "63s",
+                            "polyline": {
+                                "encodedPolyline": "oxgmDq`}vMMVOREFCLAF?F@JBH"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.5531969,
+                                    "longitude": 77.3224896
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.5533812,
+                                    "longitude": 77.32197219999999
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "TURN_RIGHT",
+                                "instructions": "Turban King chaapত সোঁফালে ঘূৰক"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "৫৯ মিঃ"
+                                },
+                                "staticDuration": {
+                                    "text": "1 min"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 39,
+                            "staticDuration": "108s",
+                            "polyline": {
+                                "encodedPolyline": "qygmDi}|vMfAA"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.553369999999997,
+                                    "longitude": 77.32197
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.553013999999997,
+                                    "longitude": 77.321979
+                                }
+                            },
+                            "navigationInstruction": {
+                                "instructions": "Take entrance Gate No.3"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "৩৯ মিঃ"
+                                },
+                                "staticDuration": {
+                                    "text": "2 mins"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 36096,
+                            "staticDuration": "4169s",
+                            "polyline": {
+                                "encodedPolyline": "iwgmDk}|vMe@^LTz@nArAbBpBxBhBlBbBfBpEzEtBfCjDrEZ`@zAhB|AjBrBfCvEzFx@bAf@j@TXj@b@j@b@v@~@rBbC~AlBNVtBrDlApAlAbA|@|@xAhAxBlBhA|@jA~@xAlAt@l@TXTX\\j@`@fAX~@Jj@Hh@D^BZ@b@@b@A^A`@I`AMn@ETEVM^K^[z@]x@Uh@]x@e@p@o@t@{@t@w@h@}@p@aAj@cAt@sBxA{@j@_An@{@j@q@`@oDbBmB~@cIrDWJ_ErBcEnB{CzAiGbDoFfCmA\\aARs@Ji@HeAL_@Bg@Da@Dq@Lk@Nu@Xc@Pw@f@s@ZeBl@uChAYJi@RWH]H[H]FYDWBWBI@O@c@?a@?_@Ac@Ca@E_@G]GUEYIQESGw@SQEUEg@Ga@Ec@Co@Aw@Aw@AS?a@AwBAeAAsAAu@AW?U?]B_@BSDWDQFSDYL]PWNQNEBSPKJOPSXKNKNKTKRM^M^I\\EZEXEj@At@?^Bf@BX@LDVH\\DTFTL^LVNXZd@Zb@`@l@d@j@l@n@\\ZXV\\XB@^Zn@h@t@j@RPTNXXVVTTNTJRNVPb@JTHVV~@Nf@Nf@J^J^Hb@DZDZB\\@b@@b@@`@?`@Az@?z@?tB?rB?hD?zB@jA?d@@^B`@Bb@DZD\\Fb@Fb@Jl@Pr@T|@^~@^bA\\|@DNDHt@hB`@~@`@`Ab@vALd@L`@@@HVDLHXBHL\\BD`@fA?Bb@`At@hBn@zAXp@b@dAPb@b@dADHn@`BP`@JVb@`AVr@LZTj@Nb@HRt@hBVr@HPTj@Pd@Rh@Rf@HPDLDJJT@@HNFLFLJLBDFHJLDDFHNR@?LPPRLP@@BDTVTZZ^V\\DFTXPRPTHJFHR\\T^d@`A\\~@x@tCNf@ZjAZhATz@vApFXbAZfAN`@Rf@n@jAx@rA|@pAtAlBtAhBBDbBrBjBpBvAvAlAtApAtAfAxAfArBv@dBn@|An@zAHRVl@@BTz@Tx@b@pBlBlJlAzFf@~BnAbGdA|FnAfGl@vC@BH`@ThApAfGp@dC~@~Cb@|Ab@pBh@fCRrBHnBH`DBbC?lB@~C@t@BjA?ZAXC^Cb@Ep@GbAQhCO`C?DQlC_@lCYhBY|AMl@Kp@I~@IbAOvCSbEKtDMzCWvJAh@cExyACf@AHElCC~BMrCQbBgAxDsAtE{CnKsBbG_BtFq@vBkChK_CfJ_H`WuCrJkBjG_@jAwDnIeFbJkFfJeL|R{BtDgA|A}AjBi@f@KMwAtAwFtFa@~A]|B?fBL|Bl@dBpBfD`FvG@@f@lBVzA?@JjC?@e@hKs@zO?@L?AJStCkA|L[nEO~CK~BCh@AR]~QYhKm@hJiAfKUfB_@zBq@vCQz@YhBUrASzASjBMpBYfEGt@A?U~Bc@lDOdAa@xDaA`IOdAg@tDErABfEl@bDnB|FnG`O@@XfC?@LxBCxC?@UjBa@tBA@gAhC?@aAtAeAhAA@aBbA?@aCz@A?aQbCs@HA?@FmEf@c@DqANqGr@sBNsAIwAQoDQuAAsBPsDTgBPoAT}@^g@Vq@n@m@v@[x@]v@]|Ag@zCi@fD_@`DiBpOQpAIj@Kb@_AlDMd@YfAe@lBYfAGVKl@a@pCWnBa@fCg@vCmB`Jo@jCQbAM`AOvB?@UlB?@S`AA?c@rAWbA{@tCi@`CYpAkAhH_BhIkBxJ_AbF_AxEA@aAzCeBfDqBzDsBvDmAbDeArEcAlFkAdEyA|C?@sAnB}AjB?@A@iKdHaAp@ACaC`B_Ad@wAf@IB}EdAmB^gBZE@qEt@kDXaEDgCa@{F_AwH}@aIgAsCc@cDc@E?@IkGu@wFw@_E]kVeA_G_@gFo@_HeAA?wFyAgF{AsCy@mGu@kD?kBXuCl@_ClAmBdB{B`DgHdMmB`DA@_BhA?@kBnAA?iItC_HhC{ChA{DbAA?mAPA?eCBaEWaEm@{Co@?AwDyA?AmCqB_DoDy@q@]WeAg@qBk@C?wC}@{B{@iEqAwM}DmImBAD"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.553013999999997,
+                                    "longitude": 77.321979
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.643880000000003,
+                                    "longitude": 77.08337999999999
+                                }
+                            },
+                            "navigationInstruction": {
+                                "instructions": "Metro rail towards Krishna Park Extension"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "৩৬.১ কিল’মিটাৰ"
+                                },
+                                "staticDuration": {
+                                    "text": "1 hour 9 mins"
+                                }
+                            },
+                            "transitDetails": {
+                                "stopDetails": {
+                                    "arrivalStop": {
+                                        "name": "Krishna Park Extension",
+                                        "location": {
+                                            "latLng": {
+                                                "latitude": 28.643880000000003,
+                                                "longitude": 77.08337999999999
+                                            }
+                                        }
+                                    },
+                                    "arrivalTime": "2025-01-08T05:31:02Z",
+                                    "departureStop": {
+                                        "name": "Okhla Bird Sanctuary",
+                                        "location": {
+                                            "latLng": {
+                                                "latitude": 28.553013999999997,
+                                                "longitude": 77.321979
+                                            }
+                                        }
+                                    },
+                                    "departureTime": "2025-01-08T04:21:33Z"
+                                },
+                                "localizedValues": {
+                                    "arrivalTime": {
+                                        "time": {
+                                            "text": "AM ১১.০১"
+                                        },
+                                        "timeZone": "Asia/Calcutta"
+                                    },
+                                    "departureTime": {
+                                        "time": {
+                                            "text": "AM ৯.৫১"
+                                        },
+                                        "timeZone": "Asia/Calcutta"
+                                    }
+                                },
+                                "headsign": "Krishna Park Extension",
+                                "transitLine": {
+                                    "agencies": [
+                                        {
+                                            "name": "দিল্লি মেট্রো",
+                                            "phoneNumber": "+91 155370",
+                                            "uri": "http://www.delhimetrorail.com/"
+                                        }
+                                    ],
+                                    "name": "Magenta Line",
+                                    "color": "#f200f2",
+                                    "textColor": "#000000",
+                                    "vehicle": {
+                                        "name": {
+                                            "text": "Metro rail"
+                                        },
+                                        "type": "SUBWAY",
+                                        "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/metro.png",
+                                        "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/in-delhi-metro.png"
+                                    }
+                                },
+                                "stopCount": 25
+                            },
+                            "travelMode": "TRANSIT"
+                        },
+                        {
+                            "distanceMeters": 119,
+                            "staticDuration": "119s",
+                            "polyline": {
+                                "encodedPolyline": "woymDojnuMfEvA"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.64396,
+                                    "longitude": 77.08344000000001
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.642959599999998,
+                                    "longitude": 77.082996
+                                }
+                            },
+                            "navigationInstruction": {},
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "০.১ কিল’মিটাৰ"
+                                },
+                                "staticDuration": {
+                                    "text": "2 mins"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 6223,
+                            "staticDuration": "1311s",
+                            "polyline": {
+                                "encodedPolyline": "miymD}gnuM@ESGm@Sm@MOEQEg@OyAa@[MaCq@_@KYGk@MYIeAUWIUIA?[Ko@MkB[A?QCMCa@IiAQUC[EGCSCYE[GYI[GYIYKa@Mu@Ws@Yi@Uk@Wi@Wa@SGCg@Yi@Yi@YIGWQQOECMKQOQOSQGGIIGEQMAASOMIgBqAECOKcAo@oAu@SOm@]IEQKEEWO_@S?AUMGE]UA?_@WiAq@]U{@m@ECy@e@mCuA{@]s@SCAcBc@a@MC?a@Iq@Ow@KC?g@KYCeAOaAKMAQC[CYC_@Eq@CG?wBYgAMmAKsE]YEaAKa@GkC[]EaBQOCs@IC?mBSMCw@Ii@GUDG@E?C?C@A?I?KA[CSAuAOk@G_BOE?_CUA?GBE@C?C@E?C?E@AAC?A?AAC?A?AAC?EAECEAGCECEAECACE?mE_@s@GcAKo@Gm@Ew@MC?WQcBOc@Ea@EqAOoHq@m@EkAMSAKAcAOKAaAM_@E}@KwCWYCuFi@SCUCe@Ek@Gk@G_BQIA]EuBQg@EaAKa@EA?iBOkAMcAISCk@EE?c@EeCSA?iFi@wBSs@KUDM@OAGAaAGyAKWEUA]EgAKeBMWEq@S}@Qm@M[IUKq@UUKiAe@KGwB}AmAiA{@cACCa@e@_@q@CCEIOUS]y@iBACM_@Mc@Oi@IOYyAESa@aCOw@CQSgAEWCMAKGWIc@COWH"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.642950000000003,
+                                    "longitude": 77.08303
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.693762,
+                                    "longitude": 77.102485
+                                }
+                            },
+                            "navigationInstruction": {
+                                "instructions": "Bus towards Majlis Park"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "৬.২ কিল’মিটাৰ"
+                                },
+                                "staticDuration": {
+                                    "text": "22 mins"
+                                }
+                            },
+                            "transitDetails": {
+                                "stopDetails": {
+                                    "arrivalStop": {
+                                        "name": "West Enclave",
+                                        "location": {
+                                            "latLng": {
+                                                "latitude": 28.693762,
+                                                "longitude": 77.102485
+                                            }
+                                        }
+                                    },
+                                    "arrivalTime": "2025-01-08T05:59:40Z",
+                                    "departureStop": {
+                                        "name": "Manohar Nagar",
+                                        "location": {
+                                            "latLng": {
+                                                "latitude": 28.642950000000003,
+                                                "longitude": 77.08303
+                                            }
+                                        }
+                                    },
+                                    "departureTime": "2025-01-08T05:37:49Z"
+                                },
+                                "localizedValues": {
+                                    "arrivalTime": {
+                                        "time": {
+                                            "text": "AM ১১.২৯"
+                                        },
+                                        "timeZone": "Asia/Calcutta"
+                                    },
+                                    "departureTime": {
+                                        "time": {
+                                            "text": "AM ১১.০৭"
+                                        },
+                                        "timeZone": "Asia/Calcutta"
+                                    }
+                                },
+                                "headsign": "Majlis Park",
+                                "transitLine": {
+                                    "agencies": [
+                                        {
+                                            "name": "DTC",
+                                            "phoneNumber": "+91 11 4140 0400",
+                                            "uri": "http://www.delhi.gov.in/wps/wcm/connect/doit_dtc/DTC/Home"
+                                        }
+                                    ],
+                                    "name": "761",
+                                    "color": "#f29d00",
+                                    "nameShort": "761",
+                                    "textColor": "#333333",
+                                    "vehicle": {
+                                        "name": {
+                                            "text": "Bus"
+                                        },
+                                        "type": "BUS",
+                                        "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png"
+                                    }
+                                },
+                                "stopCount": 12
+                            },
+                            "travelMode": "TRANSIT"
+                        },
+                        {
+                            "distanceMeters": 130,
+                            "staticDuration": "107s",
+                            "polyline": {
+                                "encodedPolyline": "yfcnDsaruMb@~BDPFf@Lv@"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.693730799999994,
+                                    "longitude": 77.1024967
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.693411400000002,
+                                    "longitude": 77.1012863
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "DEPART",
+                                "instructions": "পশ্চিমৰ দিশত Gali Number 27লৈ আগবাঢ়ক"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "০.১ কিল’মিটাৰ"
+                                },
+                                "staticDuration": {
+                                    "text": "2 mins"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 246,
+                            "staticDuration": "211s",
+                            "polyline": {
+                                "encodedPolyline": "ydcnDazquMQCgBYKAg@KA?A?A@A??@A?A?AB?@CFA@IAUIC?A?A@C@A@A@G?cCy@KEQE"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.693411400000002,
+                                    "longitude": 77.1012863
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.695466099999997,
+                                    "longitude": 77.101777
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "TURN_RIGHT",
+                                "instructions": "Gali No. 25লৈ যাবলৈ সোঁফালে ঘূৰক"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "০.২ কিল’মিটাৰ"
+                                },
+                                "staticDuration": {
+                                    "text": "4 mins"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 12,
+                            "staticDuration": "20s",
+                            "polyline": {
+                                "encodedPolyline": "uqcnDc}quM?DEP"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.695466099999997,
+                                    "longitude": 77.101777
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.695503499999997,
+                                    "longitude": 77.10166009999999
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "TURN_LEFT",
+                                "instructions": "Guru Gowalkar Marg পাবলৈ বাওঁফালে ঘূৰক"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "১২ মিঃ"
+                                },
+                                "staticDuration": {
+                                    "text": "1 min"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 42,
+                            "staticDuration": "36s",
+                            "polyline": {
+                                "encodedPolyline": "{qcnDk|quMEAKAIAG?IAGAC?C?E@EN"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.695503499999997,
+                                    "longitude": 77.10166009999999
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.6958712,
+                                    "longitude": 77.1016248
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "TURN_RIGHT",
+                                "instructions": "Gali No. 10লৈ যাবলৈ সোঁফালে ঘূৰক"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "৪২ মিঃ"
+                                },
+                                "staticDuration": {
+                                    "text": "1 min"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 8,
+                            "staticDuration": "8s",
+                            "polyline": {
+                                "encodedPolyline": "etcnDc|quMAA"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.6958712,
+                                    "longitude": 77.1016248
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.6958798,
+                                    "longitude": 77.10162989999999
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "TURN_SLIGHT_RIGHT",
+                                "instructions": "Gali No. 11ৰ ফালে সামান্য সোঁফালে ঘূৰক"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "৮ মিঃ"
+                                },
+                                "staticDuration": {
+                                    "text": "1 min"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 131,
+                            "staticDuration": "107s",
+                            "polyline": {
+                                "encodedPolyline": "gtcnDe|quMADg@tAGRm@bBGRAF"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.6958798,
+                                    "longitude": 77.10162989999999
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.696409499999998,
+                                    "longitude": 77.1004337
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "TURN_LEFT",
+                                "instructions": "Gali No. 11 পাবলৈ বাওঁফালে ঘূৰক"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "০.১ কিল’মিটাৰ"
+                                },
+                                "staticDuration": {
+                                    "text": "2 mins"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 11,
+                            "staticDuration": "11s",
+                            "polyline": {
+                                "encodedPolyline": "qwcnDutquMMEGC"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.696409499999998,
+                                    "longitude": 77.1004337
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.6965189,
+                                    "longitude": 77.1004791
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "TURN_RIGHT",
+                                "instructions": "Gali No. 6ৰ দিশত সোঁফালে ঘূৰক"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "১১ মিঃ"
+                                },
+                                "staticDuration": {
+                                    "text": "1 min"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 235,
+                            "staticDuration": "192s",
+                            "polyline": {
+                                "encodedPolyline": "gxcnD_uquMSJQDk@HOFSHM?O?UCG@KAQEMEOGi@[i@c@A?OCYIQC"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.6965189,
+                                    "longitude": 77.1004791
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.698442999999997,
+                                    "longitude": 77.1007821
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "TURN_SLIGHT_LEFT",
+                                "instructions": "Gali No. 6লৈ যাবলৈ সামান্য বাওঁফালে"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "০.২ কিল’মিটাৰ"
+                                },
+                                "staticDuration": {
+                                    "text": "3 mins"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 11,
+                            "staticDuration": "9s",
+                            "polyline": {
+                                "encodedPolyline": "gddnD{vquM?JAH"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.698442999999997,
+                                    "longitude": 77.1007821
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.698446299999997,
+                                    "longitude": 77.10067339999999
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "TURN_LEFT",
+                                "instructions": "Gali No. 1 পাবলৈ বাওঁফালে ঘূৰক"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "১১ মিঃ"
+                                },
+                                "staticDuration": {
+                                    "text": "1 min"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 521,
+                            "staticDuration": "445s",
+                            "polyline": {
+                                "encodedPolyline": "iddnDevquMMAi@?I?IEGEIKYU]Yc@]IIIGWWFKEEWUQOKIOMCCWUGJECYUIKKGCCKG}BgBCC[[II_@]s@s@eBqA"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.698446299999997,
+                                    "longitude": 77.10067339999999
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.702243299999996,
+                                    "longitude": 77.1037146
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "TURN_RIGHT",
+                                "instructions": "সোঁফালে ঘূৰক\n(৪০০ মিঃত বাওঁফালে থকা)Rockfield Jr Schoolৰ ওচৰেদি যাওক"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "০.৫ কিল’মিটাৰ"
+                                },
+                                "staticDuration": {
+                                    "text": "7 mins"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 231,
+                            "staticDuration": "185s",
+                            "polyline": {
+                                "encodedPolyline": "_|dnDeiruMgAhBmAjBy@rAGFGLYl@ED"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.702243299999996,
+                                    "longitude": 77.1037146
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.703515900000003,
+                                    "longitude": 77.1018469
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "TURN_LEFT",
+                                "instructions": "Gali Number 5 পাবলৈ বাওঁফালে ঘূৰক\n(৬১ মিঃত বাওঁফালে থকা)খেলপথাৰখনৰ ওচৰেদি যাওক"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "০.২ কিল’মিটাৰ"
+                                },
+                                "staticDuration": {
+                                    "text": "3 mins"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 34,
+                            "staticDuration": "31s",
+                            "polyline": {
+                                "encodedPolyline": "_denDq}quMKGk@g@"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.703515900000003,
+                                    "longitude": 77.1018469
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.703796099999998,
+                                    "longitude": 77.1020853
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "TURN_RIGHT",
+                                "instructions": "সোঁফালে ঘূৰক\nৰাষ্টাটো ব্যৱহাৰৰ অনুমতি সীমিত"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "৩৪ মিঃ"
+                                },
+                                "staticDuration": {
+                                    "text": "1 min"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 35,
+                            "staticDuration": "29s",
+                            "polyline": {
+                                "encodedPolyline": "weenDa_ruMCDC?A?ECKIAA?C?A@C@C"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.703796099999998,
+                                    "longitude": 77.1020853
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.7039324,
+                                    "longitude": 77.1022062
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "TURN_LEFT",
+                                "instructions": "বাওঁফালে ঘূৰক\nৰাষ্টাটো ব্যৱহাৰৰ অনুমতি সীমিত"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "৩৫ মিঃ"
+                                },
+                                "staticDuration": {
+                                    "text": "1 min"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        },
+                        {
+                            "distanceMeters": 25,
+                            "staticDuration": "21s",
+                            "polyline": {
+                                "encodedPolyline": "qfenDy_ruMc@a@HK"
+                            },
+                            "startLocation": {
+                                "latLng": {
+                                    "latitude": 28.7039324,
+                                    "longitude": 77.1022062
+                                }
+                            },
+                            "endLocation": {
+                                "latLng": {
+                                    "latitude": 28.704064199999998,
+                                    "longitude": 77.1024387
+                                }
+                            },
+                            "navigationInstruction": {
+                                "maneuver": "TURN_LEFT",
+                                "instructions": "বাওঁফালে ঘূৰক\nৰাষ্টাটো ব্যৱহাৰৰ অনুমতি সীমিত\nআপোনাৰ গন্তব্যস্থান বাওঁফালে থাকিব"
+                            },
+                            "localizedValues": {
+                                "distance": {
+                                    "text": "২৫ মিঃ"
+                                },
+                                "staticDuration": {
+                                    "text": "1 min"
+                                }
+                            },
+                            "travelMode": "WALK"
+                        }
+                    ],
+                    "localizedValues": {
+                        "distance": {
+                            "text": "৭২১ কিল’মিটাৰ"
+                        },
+                        "duration": {
+                            "text": "16 hours 3 mins"
+                        },
+                        "staticDuration": {
+                            "text": "16 hours 3 mins"
+                        }
+                    },
+                    "stepsOverview": {
+                        "multiModalSegments": [
+                            {
+                                "stepStartIndex": 0,
+                                "stepEndIndex": 0,
+                                "navigationInstruction": {
+                                    "instructions": "Bus towards Guna AC Seater 2+2AC 2+2"
+                                },
+                                "travelMode": "TRANSIT"
+                            },
+                            {
+                                "stepStartIndex": 1,
+                                "stepEndIndex": 1,
+                                "navigationInstruction": {
+                                    "instructions": "Bus towards Delhi Bharat Benz A/C Sleeper (2+1)Bharat (2"
+                                },
+                                "travelMode": "TRANSIT"
+                            },
+                            {
+                                "stepStartIndex": 2,
+                                "stepEndIndex": 11,
+                                "navigationInstruction": {
+                                    "instructions": "Walk to Okhla Bird Sanctuary"
+                                },
+                                "travelMode": "WALK"
+                            },
+                            {
+                                "stepStartIndex": 12,
+                                "stepEndIndex": 12,
+                                "navigationInstruction": {
+                                    "instructions": "Metro rail towards Krishna Park Extension"
+                                },
+                                "travelMode": "TRANSIT"
+                            },
+                            {
+                                "stepStartIndex": 13,
+                                "stepEndIndex": 13,
+                                "navigationInstruction": {
+                                    "instructions": "Walk to Manohar Nagar"
+                                },
+                                "travelMode": "WALK"
+                            },
+                            {
+                                "stepStartIndex": 14,
+                                "stepEndIndex": 14,
+                                "navigationInstruction": {
+                                    "instructions": "Bus towards Majlis Park"
+                                },
+                                "travelMode": "TRANSIT"
+                            },
+                            {
+                                "stepStartIndex": 15,
+                                "stepEndIndex": 28,
+                                "travelMode": "WALK"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "distanceMeters": 721169,
+            "duration": "57792s",
+            "staticDuration": "57792s",
+            "polyline": {
+                "encodedPolyline": "}femCiacwMnBFExBXx@hAfC`@xBpAvJhAlGh@lFCz@o@dFi@nAw@pAmEbFkCbDeDzDmDnEeEbFuExFaFdG{EzFkEpFsMdPoFjHeGfIyE~GqEfHsEnH_EnG{CbFwDvFwCdEsBpCyCzDqBjBuE~C}DzCqAbBgAhBmBfFQ~@i@~Dw@xIw@jEcCtGkAtD{AnFkBxGwBvH}BnIeChJ}BnHgApDcB`GmBtHcBnHmB|H{BlIaBlG{@rDgA~E}AvG{A|Gy@`E{AlFgBlD_DdFmD~FuDbG}CjFiCrE}ClFoDfGuDnGyDvGcEtG}D|G{ExIaDfG}CfGmDvGwC|F}CfGcDtGgD`HgDdHmDlH_EhIkB|Em@|Ci@~E{@fKiArKqAlK_A`L_@zKQlJgHtf@iJfVeGfTe@nCiBnGyAnFaBdHeBhI}AhK{A|KuAvK_BxKqBlKgC`KcDdKcDvJmDrGaGpHiFbImEdHsB|DyDfJgDvJyCxJ_DnJoC`HcCdEcG`JyB|EwDpJo@|CY`DWbK]rKc@xKa@zII|B[jFUbFStGQvHuMxz@sBhHuDrJwDtJwDpJaXbl@wE~I_F~IyExIyEvIcFnI_G~H}FvHcG|Hed@zh@mBtDeKpMg@zDy@`JgAvKkAzK}A|KoB|KmBlKaBtJwAhKaB~K{@hIe@jI?tFN`LDbK?jI?xJgAbEqDnJuA|AgBjA}GvA}DKcHkAiG}@iEi@}DYoA@mDFaEKqCYcGmAyGwAsH_BgIyAmEi@aHa@kJDkJTaJnA_CbAiHhEmHnE{H|EqMlFkBJiBBkGIkH?iHDuHD{HBeIF{IF_JFaEF{BTaBZwFlBmCxAoCnBkGpEcHdFqGlEuDbBkEtA}IdBgIlBoIjBwIzBiIjBqG|AuHhBoEt@sIbB_AZsDhBgC~AuE|EsBjDkBbEoDdJqDjJeDzIuDjKoC|I{BjIuBrHmBxFcDtHkDfI}B~DoFjH{M~RmCfE_DvDmD~C_EjCeIvE{HbEoI`DcGxCwC`DoBrC{@tAs@x@cC|By@j@sDvBoEhCyErC}EpCoFtCmGjCaIhCeJnCoJfCoJ`CsJdCoJhCqJhCoJ`CcFl@iFRyHGeKKeKGcKAeRB}Jn@aKr@_Kl@yOp@uXuEkJoCqOkB}ICmH[iCa@yNeCgF^oCx@s_A~KoHqAoJkCqJcCaF}@}J{@cKWgKSgHa@iUqGmAu@kEaDiFkEgG_FcH{FsHaG}HkFsHyDqGeCgHsBsJsBaKoAcK_A}JcA_KeA_Ku@yCMgFDiFRaK~@sJt@kI{AuOavD|EcIVcF[_DaVy`@{{@vLkDbGgGdReCfE_FlEcCpAgQ`CcKQyCNaKp@cFg@qCw@iJyCsJ_CeFBoCj@kKxBoCY}JkBmJeBeEKyD`@mGbAwJ~@wJpA}Jz@_Kv@gFT}JmAqG_DcJoHcEeBoCg@wJ[iHc@gKaAqIg@sJw@gDiAoCeBcBiBq@aAgBiCeBcCgC}DyCuDm@u@mCmDgCaDsDiEaHuIoIqFkIoBmIsBkIyBqFyA}Cy@s@YsEgAoEoA_GaB}GgBeIoBqGYeEV_ARmH`DgF|DcGdG}FbGqFrF{FdGeC`DqChFwCbIsCdHgD`GyAhBmCdDaCnCeDzD_E~DoEzDmFxEcFhEqF`F_GvF}DzE_CvDcEbIeEnIeEhIeElIqDdHiDrHsBhGyB|IeClJyAjHu@fKGfKOfF_AlKa@nFKxFGtF_AbIcCdKaDvJyCrJ_DnJuBjHaBhFcBhGyBdHqBvFoCpFiCvD_DpD_HvG{GxGeHvG}GzGyG~GsG~GuGfHyG`HuHzJiAtC_B|Hq@lI}@jIiB~EiBzBkGbDwJrBgHfBmCdAiE|BcIhF{HjFqBpBkKdM{GpGwClDkDjFcExGuFfDeB`@{G~@iD|@oIpDeErCyF`F_FnD}GnEwEfDmEdEcEfFeCvD{CbG_BfEkCdJaAlCcC~DcFdE}H|EcIxEwHrE}HhEgIvD_G|CuDlCiD`DoG|GsG`HkGvGgDvCaH~EcH|E}GfF{C~CkFjH}EnHaCtGeBbHkAbC_BtByFfGcGpGcGrGcGjGeGnGiGlGgGlGeGpGgGjGaGbGmGhGaFlE}BnAkJvDmIdDqIrDuIvDgIhEgIlE{HjE}HbEyHxDiDxB_DlCcE~EmFfHgDlEoB~CiB`CcAdAaHbJuD~E_EtFqEzFoElG_ExGmDbHaEfHuEdHyEzGmEnG{BlDk@dAaAdAcAtBmDzC{E~C{Ad@_G|A}GjBiGbBwFdBwEfAw@H}ADuACaEs@iDcA}E{A_GiBcHsBuHwBaI{BqI_CwIaCyIcCsH}BeHeCuHeCyJ}DkC_CmBgDyCyFe@u@y@_Bk@gAmB_EyBmEgCaF{C}FcDiGeDqGyBmF}@iGYcIWmHIoBGaArAyB~AyAdByA|HVhCb@|DhAxDbAv@Vz@XrAXyAMuDiAeEgA}D}@u@QuEg@qAKu@TcBtBsAjAaC}@e@_Au@y@iAs@_A]gCi@eAOmBc@_CYqFe@qGe@aHK}HPkIt@gCFiCKmIsBcIuCoQsGsG{ByGaCoHgCkIoCqIuCsIuCaJuCuGiC}IqD_J_DiJwCeJ_DgJcDgJ}CgJuCmIyCwBs@}HcCuIyC}HoCiG{BaH}BaIiC_J{CaJ}CiKoDgJ_DeJeDgJ_DiJ}CgJ}CiJ_DeJ{CeJ_D_JwC{HgCgGsByGyB_IcCwEo@wCAaKTwCUwCk@iJ{BiJ}BsJyBuJwByJ{BsJwBuJwBqJyBoJuBqJ}B_H_CwI{D{IyD{I{DmEcByDaAyGcB{HgB}IoB}L}BkFHuCl@mCbAiHnDgJn@oGsA_CmAoHgGeHeGgEuE{BoFUkAq@eEw@}D_AuEcAkEsAaE_BaE{AyCyCcFoCmDcDgDgFgEiGqD}G}DyHsEmI}EwReLiH_EkH}D}FuDeDqB{Aw@cCeBmCmBsDqByEqCgF{CsFwCmBq@kF}@_CGeJBaKD_KH}GA}GqAgCqAwBeBgHgGmHaGmG{EmFkE_GyEaHcFiH_FwH_FgIaFeIcFeIaFaIgFcIaFmEqB{GcCmJgCoJkCqJ_CsJcCkJmCgJeDaJsD}IwD_JsDkKuDgJyCgJyCkJwCkJ}CiJwCgJ{CiJwCkJ{CkJ{CkJsCcJsC}IqCmH_CwE_BwAe@cBc@eFcBsEuAyFmBuGsBeH{BwHeCgGiBs@YkDiAwBm@{E}AwFiBeHaC_FwAeDeAiA]sAe@ICyBo@wAg@iGmBoBo@s@Y_Bc@aC{@wC{@sCw@iC_AoAe@qDmAsEuA}E{AoFcBeGsB{GsBoH}BcIiCmIkCmHcC_A_@gEiAkEwAiA{@s@o@kEo@{Be@qF}A}GwBaIgCmImC_JsCiJyC_JsC_JuCkJyCgJwC{IsCeIiCoIoCcJuCeJuCkJyCiJwCgJyCkJwCkJwCiJyCiJyCkJuCeJ{CgJ{CkJuCkJuCiJuCgJwCiJyCgJwCmKgDkJwCiJ{CgJyCiJwCmJqCkJsC{`@mMgJyCiJuCiJwCsUeHmJiCiJsCgJwCiJuCiJyCkJwCiJuCiJ{CgJ}CmJ{CkJsCwNyEaCuAuBgBuGeHsGeHwGcHuGgHwGeHqGkHwGaH{GaHsGyGiGuGcQgPsHaGsH}FoUqNcTiHkFeBqFeBeGmB}F}BcF_DmHsF_IeFmIkEsImEsIiEqImEwFgBoB[kBIsDHwHZqGVqKV}BM_CYyFaB{BkAcHcFiHmF}HuF{HuF{HyF}HsFuHuFyHuFqHuFqHmFyHuF}HsF{HsFeIcFwGwCgJyCkJyC_OkEuCWcH`@cFh@gGQwEmAgBs@qGqCkHgDsIsD}IwD}IyDuIuD}IwD_JyD_JqD_JoD}IoD}IwD{IwD}I{D{IaEmJmEaAa@Ne@aog@}a\\_exCwr`A}hxC}ggBw{zDvw_@c~|@fg`AoonEtubACN{@l@m@R}@Ja@@@E?A?A?A?A?C?AAA?A?AACACN]NWdBkCRYXe@RYh@w@b@m@^g@`@g@MQCCCGGKGQe@yAk@{Ae@aBaA^cA`@_C~@yB`AYLuBz@uBbAMH{@\\WH~@vCTt@Nr@FVJ^hA|DFTr@zBHVBD@DDLHTTp@L^DL@BRn@N^Rj@DJHPLXN\\^v@Th@fAhBBFbA`BLPLPJLJEDEDGDIBG?G@MB]D_A@F@D@D@B@BBBBBB@BBB@D@F?F?JNJHf@d@JJVNTLTLZNXLMVOREFCLAF?F@JBH@?fAAe@^LTz@nArAbBpBxBhBlBbBfBpEzEtBfCjDrEZ`@zAhB|AjBrBfCvEzFx@bAf@j@TXj@b@j@b@v@~@rBbC~AlBNVtBrDlApAlAbA|@|@xAhAxBlBhA|@jA~@xAlAt@l@TXTX\\j@`@fAX~@Jj@Hh@D^BZ@b@@b@A^A`@I`AMn@ETEVM^K^[z@]x@Uh@]x@e@p@o@t@{@t@w@h@}@p@aAj@cAt@sBxA{@j@_An@{@j@q@`@oDbBmB~@cIrDWJ_ErBcEnB{CzAiGbDoFfCmA\\aARs@Ji@HeAL_@Bg@Da@Dq@Lk@Nu@Xc@Pw@f@s@ZeBl@uChAYJi@RWH]H[H]FYDWBWBI@O@c@?a@?_@Ac@Ca@E_@G]GUEYIQESGw@SQEUEg@Ga@Ec@Co@Aw@Aw@AS?a@AwBAeAAsAAu@AW?U?]B_@BSDWDQFSDYL]PWNQNEBSPKJOPSXKNKNKTKRM^M^I\\EZEXEj@At@?^Bf@BX@LDVH\\DTFTL^LVNXZd@Zb@`@l@d@j@l@n@\\ZXV\\XB@^Zn@h@t@j@RPTNXXVVTTNTJRNVPb@JTHVV~@Nf@Nf@J^J^Hb@DZDZB\\@b@@b@@`@?`@Az@?z@?tB?rB?hD?zB@jA?d@@^B`@Bb@DZD\\Fb@Fb@Jl@Pr@T|@^~@^bA\\|@DNDHt@hB`@~@`@`Ab@vALd@L`@@@HVDLHXBHL\\BD`@fA?Bb@`At@hBn@zAXp@b@dAPb@b@dADHn@`BP`@JVb@`AVr@LZTj@Nb@HRt@hBVr@HPTj@Pd@Rh@Rf@HPDLDJJT@@HNFLFLJLBDFHJLDDFHNR@?LPPRLP@@BDTVTZZ^V\\DFTXPRPTHJFHR\\T^d@`A\\~@x@tCNf@ZjAZhATz@vApFXbAZfAN`@Rf@n@jAx@rA|@pAtAlBtAhBBDbBrBjBpBvAvAlAtApAtAfAxAfArBv@dBn@|An@zAHRVl@@BTz@Tx@b@pBlBlJlAzFf@~BnAbGdA|FnAfGl@vC@BH`@ThApAfGp@dC~@~Cb@|Ab@pBh@fCRrBHnBH`DBbC?lB@~C@t@BjA?ZAXC^Cb@Ep@GbAQhCO`C?DQlC_@lCYhBY|AMl@Kp@I~@IbAOvCSbEKtDMzCWvJAh@cExyACf@AHElCC~BMrCQbBgAxDsAtE{CnKsBbG_BtFq@vBkChK_CfJ_H`WuCrJkBjG_@jAwDnIeFbJkFfJeL|R{BtDgA|A}AjBi@f@KMwAtAwFtFa@~A]|B?fBL|Bl@dBpBfD`FvG@@f@lBVzA?@JjC?@e@hKs@zO?@L?AJStCkA|L[nEO~CK~BCh@AR]~QYhKm@hJiAfKUfB_@zBq@vCQz@YhBUrASzASjBMpBYfEGt@A?U~Bc@lDOdAa@xDaA`IOdAg@tDErABfEl@bDnB|FnG`O@@XfC?@LxBCxC?@UjBa@tBA@gAhC?@aAtAeAhAA@aBbA?@aCz@A?aQbCs@HA?@FmEf@c@DqANqGr@sBNsAIwAQoDQuAAsBPsDTgBPoAT}@^g@Vq@n@m@v@[x@]v@]|Ag@zCi@fD_@`DiBpOQpAIj@Kb@_AlDMd@YfAe@lBYfAGVKl@a@pCWnBa@fCg@vCmB`Jo@jCQbAM`AOvB?@UlB?@S`AA?c@rAWbA{@tCi@`CYpAkAhH_BhIkBxJ_AbF_AxEA@aAzCeBfDqBzDsBvDmAbDeArEcAlFkAdEyA|C?@sAnB}AjB?@A@iKdHaAp@ACaC`B_Ad@wAf@IB}EdAmB^gBZE@qEt@kDXaEDgCa@{F_AwH}@aIgAsCc@cDc@E?@IkGu@wFw@_E]kVeA_G_@gFo@_HeAA?wFyAgF{AsCy@mGu@kD?kBXuCl@_ClAmBdB{B`DgHdMmB`DA@_BhA?@kBnAA?iItC_HhC{ChA{DbAA?mAPA?eCBaEWaEm@{Co@?AwDyA?AmCqB_DoDy@q@]WeAg@qBk@C?wC}@{B{@iEqAwM}DmImBADOKfEvA@E@ESGm@Sm@MOEQEg@OyAa@[MaCq@_@KYGk@MYIeAUWIUIA?[Ko@MkB[A?QCMCa@IiAQUC[EGCSCYE[GYI[GYIYKa@Mu@Ws@Yi@Uk@Wi@Wa@SGCg@Yi@Yi@YIGWQQOECMKQOQOSQGGIIGEQMAASOMIgBqAECOKcAo@oAu@SOm@]IEQKEEWO_@S?AUMGE]UA?_@WiAq@]U{@m@ECy@e@mCuA{@]s@SCAcBc@a@MC?a@Iq@Ow@KC?g@KYCeAOaAKMAQC[CYC_@Eq@CG?wBYgAMmAKsE]YEaAKa@GkC[]EaBQOCs@IC?mBSMCw@Ii@GUDG@E?C?C@A?I?KA[CSAuAOk@G_BOE?_CUA?GBE@C?C@E?C?E@AAC?A?AAC?A?AAC?EAECEAGCECEAECACE?mE_@s@GcAKo@Gm@Ew@MC?WQcBOc@Ea@EqAOoHq@m@EkAMSAKAcAOKAaAM_@E}@KwCWYCuFi@SCUCe@Ek@Gk@G_BQIA]EuBQg@EaAKa@EA?iBOkAMcAISCk@EE?c@EeCSA?iFi@wBSs@KUDM@OAGAaAGyAKWEUA]EgAKeBMWEq@S}@Qm@M[IUKq@UUKiAe@KGwB}AmAiA{@cACCa@e@_@q@CCEIOUS]y@iBACM_@Mc@Oi@IOYyAESa@aCOw@CQSgAEWCMAKGWIc@COWHDCb@~BDPFf@Lv@QCgBYKAg@KA?A?A@A??@A?A?AB?@CFA@IAUIC?A?A@C@A@A@G?cCy@KEQE?DEPEAKAIAG?IAGAC?C?E@ENAAADg@tAGRm@bBGRAFMEGCSJQDk@HOFSHM?O?UCG@KAQEMEOGi@[i@c@A?OCYIQC?JAHMAi@?I?IEGEIKYU]Yc@]IIIGWWFKEEWUQOKIOMCCWUGJECYUIKKGCCKG}BgBCC[[II_@]s@s@eBqAgAhBmAjBy@rAGFGLYl@EDKGk@g@CDC?A?ECKIAA?C?A@C@Cc@a@HK"
+            },
+            "viewport": {
+                "low": {
+                    "latitude": 23.295079899999998,
+                    "longitude": 76.8872099
+                },
+                "high": {
+                    "latitude": 28.704110399999998,
+                    "longitude": 78.17646909999999
+                }
+            },
+            "travelAdvisory": {
+                "transitFare": {}
+            },
+            "localizedValues": {
+                "distance": {
+                    "text": "৭২১ কিল’মিটাৰ"
+                },
+                "duration": {
+                    "text": "16 hours 3 mins"
+                },
+                "staticDuration": {
+                    "text": "16 hours 3 mins"
+                },
+                "transitFare": {}
+            },
+            "routeLabels": [
+                "DEFAULT_ROUTE"
+            ]
+        }
+    ],
+    "geocodingResults": {
+        "origin": {
+            "geocoderStatus": {},
+            "type": [
+                "locality",
+                "political"
+            ],
+            "placeId": "ChIJvY_Wj49CfDkR-NRy1RZXFQI"
+        },
+        "destination": {
+            "geocoderStatus": {},
+            "type": [
+                "administrative_area_level_1",
+                "political"
+            ],
+            "placeId": "ChIJLbZ-NFv9DDkRQJY4FbcFcgM"
+        }
+    }
+}
