@@ -38,7 +38,7 @@ VNGo is a modern ride-booking application that connects users with drivers effic
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/vngo.git
+git clone https://github.com/NP10t/VNGo.git
 cd vngo
 ```
 
@@ -52,7 +52,7 @@ cd vngo-backend
 ```sh
 cd vngo-driver # or cd vngo-user
 npm install
-npx start # or run-ios
+npx start
 ```
 
 ## 📧 Contact
