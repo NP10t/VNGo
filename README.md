@@ -3,6 +3,7 @@
 ### The VNGo versions that have a CI/CD pipeline are here:
 ### - Jenkins: https://github.com/NP10t/VNGo_Jenkins
 ### - GitHub Actions: https://github.com/NP10t/VNGo-with-CI-CD-GitHub-Actions
+### - GitOps with Helm, ArgoCD, Kubernetes: https://github.com/NP10t/VNGo_GitOps.git
 
 VNGo is a modern ride-booking application that connects users with drivers efficiently and securely. The application consists of three main components:
 
